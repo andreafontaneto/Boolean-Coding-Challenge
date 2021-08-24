@@ -1,0 +1,93 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Urbanist', sans-serif;
+}
+
+body{
+  background-image:url(img/background.jpg);
+  background-size: cover;
+}
+
+div#container{
+  width: 1200px;
+  border-radius: 50px;
+  margin: 30px auto;
+  padding: 70px 0px 100px 0px;
+  background-color: rgba(0,0,0, .5)
+}
+
+div#container > header{
+  text-align: center;
+}
+
+.logo{
+  width: 200px;
+  margin: 30px auto 0px auto;
+}
+
+h1{
+  font-size: 25px;
+  margin-bottom: 5px;
+  color: lime;
+}
+
+nav{
+  text-align: center;
+  background-color: lime;
+  padding: 10px;
+  margin: auto;
+  width: 1000px;
+}
+
+h2{
+  display:inline-block;
+  font-size: 18px;
+}
+
+main{
+  width: 1000px;
+  margin: auto;
+}
+
+.gino22, .mike24, .fede154{
+  margin: 25px 0px;
+}
+
+p.street-name{
+  display: inline-block;
+}
+
+p.text-power{
+  display: block;
+  margin-bottom: 5px;
+}
+
+section > p{
+  font-size: 13px;
+}
+
+section h2, section span, section p{
+  color: white;
+}
+
+section > div{
+  height: 20px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.power-level1{
+  background-color: orange;
+  width: 300px;
+}
+
+.power-level2{
+  background-color: green;
+  width: 600px;
+}
+
+.power-level3{
+  background-color: red;
+  width: 150px;
+}
